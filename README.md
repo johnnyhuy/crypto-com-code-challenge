@@ -18,6 +18,10 @@ start)*
 
 Run the following commands to get answers to the first assessment.
 
+`bash` will be the required script runtime.
+
+We're git ignoring the `access.log` file granted that's fairly large at 18 MB. However, we'll be using `gunzip` to uncompress the provided `.gz` file.
+
 ```bash
 # Get the total count of requests
 ./total-number.sh
