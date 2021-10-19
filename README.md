@@ -33,6 +33,14 @@ We're git ignoring the `access.log` file granted that's fairly large at 18 MB. H
 ./country-most-requests.sh
 ```
 
+### References
+
+https://stackoverflow.com/questions/12457457/count-number-of-lines-in-terminal-output
+https://unix.stackexchange.com/questions/156261/unzipping-a-gz-file-without-removing-the-gzipped-file
+https://unix.stackexchange.com/questions/360273/a-command-to-do-bulk-ip-address-lookups-using-unix-command-line-works-on-a-unix/360284
+https://stackoverflow.com/questions/2034799/how-to-truncate-long-matching-lines-returned-by-grep-or-ack
+https://unix.stackexchange.com/questions/83473/get-my-country-by-ip-in-bash
+
 ## System Design
 
 We are designing a simple bit.ly-like service (API only), which includes two web API endpoints,
@@ -83,3 +91,4 @@ are fine)
 - CI/CD software and design considerations For each component, e.g. database, cache,
 programming language -- explain your choice and why
 - State any assumptions/limitations of the design
+
