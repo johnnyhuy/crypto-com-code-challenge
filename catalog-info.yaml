@@ -1,0 +1,24 @@
+---
+apiVersion: backstage.io/v1alpha1 
+kind: System
+metadata:
+  name: crypto-com-crypto-com-code-challenge
+  title: Code Challenge System
+  description: The system for Crypto.com code challenge
+spec:
+  owner: johnnyhuy
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: access-log-analytics
+  title: Access Log Analytics
+  description: Shell scripts to analyze access.log file
+  tags:
+    - shell
+spec:
+  type: service
+  lifecycle: experimental
+  owner: johnnyhuy
+  system: crypto-com-code-challenge

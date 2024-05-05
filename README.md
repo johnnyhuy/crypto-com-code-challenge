@@ -1,4 +1,4 @@
-# wizardly-zhukovsky
+# Crypto.com Code Challenge
 
 Johnny Huynh - Lead DevOps Engineer @ crypto.com
 
